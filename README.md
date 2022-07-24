@@ -1,7 +1,5 @@
 # giitle
 
-This template should help get you started developing with Vue 3 in Vite.
-
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
@@ -21,10 +19,10 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Project Setup (need to use legacy-peer-deps because of vuetify-plugin/vite conflicting versions)
 
 ```sh
-npm install
+npm install --legacy-peer-deps
 ```
 
 ### Compile and Hot-Reload for Development
