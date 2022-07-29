@@ -1,4 +1,4 @@
-# giitle
+# gittle
 
 ## Recommended IDE Setup
 
